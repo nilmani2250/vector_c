@@ -1,0 +1,25 @@
+//WAP too find and count prime number from given range.
+
+#include<stdio.h>
+void main()
+{
+int i,c,numm,num1,d=0;
+printf("Enter starting and Ending range:\n");
+scanf{"%d %d",&num,&num1);
+printf("prime number between %d to %d are:\n",num,num1);
+
+for(;num<=nnum1;num++)
+{
+for(i=1,c=0;i<=num;i++)
+{
+if(num%i==0)
+c++;
+}
+if(c==2)
+{
+d++;
+printf("%d",num);
+}
+}
+printf("%d prime numbers are fond\n",d);
+}
